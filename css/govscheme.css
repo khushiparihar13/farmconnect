@@ -1,0 +1,353 @@
+/* gov-schemes-styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6ffe6; /* Light green background for Farm Connect theme */
+    margin: 0;
+    padding: 0;
+    width: 98.5%;
+}
+
+header {
+    background-color: #4caf50; /* Green color for Farm Connect theme */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width:99%;
+}
+
+
+
+header {
+    background: green;
+    padding: 10px;
+    color: white;
+    /* text-align: center; */
+    position: relative;
+    width: 100%;
+}
+.head{
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 98%;
+} 
+
+.logo img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.search-bar {
+    margin: 20px 0;
+    align-items: start;
+    /* background-color:rgba(245, 245, 245, 0.507); */
+    border-left: 4%;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 8px;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    align-items: start;
+}
+/* translator */
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-banner-frame {
+    display: none !important;
+}
+
+#google_translate_element .goog-te-gadget span {
+    display: none !important;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #086208;
+    padding: 5px 20px;
+}
+
+.menu-btn {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+
+.login a{
+    background-color: #086208;
+    background-size: 100%;
+    color: white;
+    width: max-content;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.login a:hover {
+    transform: scale(1.1);
+    color: #000000;
+}
+
+
+.navbar ul li a:hover{
+    transform: scale(1.1);
+    color: #000000;
+    
+}
+
+
+
+section {
+    padding: 2rem;
+    
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+.scheme {
+    margin-bottom: 2rem;
+}
+
+.scheme-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.scheme-item h4 {
+    color: #4caf50; /* Green color for scheme headings */
+}
+
+button {
+    background-color: #4caf50; /* Green button color for Farm Connect theme */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+
+.back-button {
+    text-align: left;
+    margin-top: 2rem;
+    width: 20%;
+    margin-left: 5%;
+}
+footer {
+    background-color: #4caf50; /* Green footer color for Farm Connect theme */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+}
+
+.Apply{
+    padding: 8px ;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    background-color: #45a049;
+    text-decoration: none;
+}
+h3{
+    color: #333;
+    text-align: center;
+}:
+}
+
+
+
+/* footer
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-container div {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer h1, h3 {
+    color: white
+}
+
+.footer-middle ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-middle ul li {
+    margin: 5px 0;
+}
+
+.footer-middle ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-middle ul li a:hover {
+    color: #f39c12;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    padding: 10px;
+    background: #1a252f;
+}
+.Apply{
+    padding: 8px ;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    background-color: #45a049;
+    text-decoration: none;
+}
+h3{
+    color: #333;
+    text-align: center;
+}
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-container div {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer h1, h3 {
+    color: white
+}
+
+.footer-middle ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-middle ul li {
+    margin: 5px 0;
+}
+
+.footer-middle ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-middle ul li a:hover {
+    color: #f39c12;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    padding: 10px;
+    background: #1a252f;
+} */

@@ -1,0 +1,687 @@
+/* styles.css */
+body {
+    font-family: 'Abril Fatface', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    width: 100%;
+}
+
+header {
+    background: green;
+    padding: 10px;
+    color: white;
+    /* text-align: center; */
+    position: relative;
+    width: 98.5%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 98%;
+} 
+
+.logo img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.search-bar {
+    margin: 20px 0;
+    align-items: start;
+    /* background-color:rgba(245, 245, 245, 0.507); */
+    border-left: 4%;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 8px;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    align-items: start;
+}
+/* translator */
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-banner-frame {
+    display: none !important;
+}
+
+#google_translate_element .goog-te-gadget span {
+    display: none !important;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #086208;
+    padding: 5px 20px;
+}
+
+.menu-btn {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {a/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background: green;
+    padding: 10px;
+    color: white;
+    /* text-align: center; */
+    position: relative;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+} 
+
+.logo img {
+    width: 60px;
+    border-radius: 50%;
+    border-radius: 50%;
+}
+
+.search-bar {
+    margin: 20px 0;
+    align-items: start;
+    /* background-color:rgba(245, 245, 245, 0.507); */
+    border-left: 4%;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 8px;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    align-items: start;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #086208;
+    padding: 5px 20px;
+}
+
+.menu-btn {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+
+.login a{
+    background-color: #086208;
+    background-size: 100%;
+    color: white;
+    width: max-content;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.login a:hover {
+    transform: scale(1.1);
+    color: #000000;
+}
+
+.navbar ul li a:hover{
+    transform: scale(1.1);
+    color: #000000;
+}
+
+.community-section {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.community-section:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.community-section h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #333;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.community-section p {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.subscription-banner {
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.subscription-banner:hover {
+    background-color: #bbdefb;
+}
+
+.subscription-banner h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subscription-banner p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.subscribe-button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.subscribe-button:hover {
+    background-color: #45a049;
+}
+
+.resources-section {
+    margin-bottom: 30px;
+}
+
+.resources-section h3 {
+    font-size: 22px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.resource-item {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.resource-item:hover {
+    background-color: #e0f7fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.resource-item h4 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.resource-item p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.view-details-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.view-details-button:hover {
+    background-color: #45a049;
+}
+
+.back-button {
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 5%;
+}
+
+.back-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.back-btn:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    .community-section {
+        padding: 20px;
+    }
+
+    .resource-item h4 {
+        font-size: 18px;
+    }
+
+    .resource-item p {
+        font-size: 14px;
+    }
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 500px;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+.modal-footer {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f1f1f1;
+}
+
+.modal-close-btn, .subscribe-btn {
+    margin-left: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+
+.login a{
+    background-color: #086208;
+    background-size: 100%;
+    color: white;
+    width: max-content;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.login a:hover {
+    transform: scale(1.1);
+    color: #000000;
+}
+
+.navbar ul li a:hover{
+    transform: scale(1.1);
+    color: #000000;
+}
+
+.community-section {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.community-section:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.community-section h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #333;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.community-section p {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.subscription-banner {
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.subscription-banner:hover {
+    background-color: #bbdefb;
+}
+
+.subscription-banner h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subscription-banner p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.subscribe-button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.subscribe-button:hover {
+    background-color: #45a049;
+}
+
+.resources-section {
+    margin-bottom: 30px;
+}
+
+.resources-section h3 {
+    font-size: 22px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.resource-item {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.resource-item:hover {
+    background-color: #e0f7fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.resource-item h4 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.resource-item p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.view-details-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.view-details-button:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    .community-section {
+        padding: 20px;
+    }
+
+    .resource-item h4 {
+        font-size: 18px;
+    }
+
+    .resource-item p {
+        font-size: 14px;
+    }
+}
+
+.back-button {
+    text-align: left;
+    margin-top: 2rem;
+    width: 20%;
+    margin-left: 5%;
+    width: 20%;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 500px;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+.modal-footer {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f1f1f1;
+}
+
+.modal-close-btn, .subscribe-btn {
+    margin-left: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.Apply{
+    padding: 12px ;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    background-color: #45a049;
+    text-decoration: none;
+}
+/* Footer */
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-container div {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer h1, h3 {
+    color: white
+}
+
+.footer-middle ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-middle ul li {
+    margin: 5px 0;
+}
+
+.footer-middle ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-middle ul li a:hover {
+    color: #f39c12;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    padding: 10px;
+    background: #1a252f;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmConnect FAQ</title>
+    <link rel="stylesheet" href="FAQ'S.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo2.jpg" alt="">
+            <h1>FARM CONNECT</h1>
+            
+        </div>
+        <!-- <div class="search-bar">
+                <button>🔍</button>
+                <input type="text" placeholder="search here (job title, location...)">     
+        </div> -->
+         <nav>
+            <!-- <button class="menu-btn">☰</button> -->
+           
+               <div class="search-bar">
+                   
+                    <input type="text" placeholder=" 🔍 search here (job title, location...)">     
+                </div>
+                <!-- <div class="navbar">
+                    <div id="google_translate_element"></div> --> 
+                    <div id="google_translate_element"></div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="FAQ'S.html">FAQ'S</a></li>
+            </ul>
+            
+            <div class="navbar">
+                <div id="google_translate_element"></div>
+            </div>
+            <div class="login">
+                <!-- <button class="login-btn">Login</button> -->
+                 <a href="loginpage.html">Login</a>
+            </div>
+        </nav> 
+    </header>
+    <div class="faq-container">
+        <h2>FarmConnect FAQ</h2>
+        
+        <div class="faq-item">
+            <div class="faq-question">What is FarmConnect?</div>
+            <div class="faq-answer">FarmConnect is an online platform that connects farmers with job seekers looking for work in the agriculture sector.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">How does FarmConnect work?</div>
+            <div class="faq-answer">Farmers can post job listings, and job seekers can browse and apply for jobs, making recruitment easier.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Is FarmConnect free to use?</div>
+            <div class="faq-answer">FarmConnect offers both free and premium plans for job postings.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">How do I post a job on FarmConnect?</div>
+            <div class="faq-answer">You can create an account, fill in job details, and publish your listing.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">How do I apply for farm jobs?</div>
+            <div class="faq-answer">Browse job listings, select a job, and click “Apply.” You may need to create a profile.</div>
+        </div>
+    </div> <br><br>
+
+     <!-- footer -->
+     <footer>
+        <div class="footer-container">
+            <!-- Left Section: Logo & About -->
+            <div class="footer-left">
+                <h2>Farm Connect</h2>
+                <p>Connecting farmers and workers for a better future.</p>
+            </div>
+    
+            <!-- Middle Section: Quick Links -->
+            <div class="footer-middle">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="career.html">Jobs</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+    
+            <!-- Right Section: Contact & Social Media -->
+            <div class="footer-right">
+                <h3>Contact Us</h3>
+                <p>Email: info@farmconnect.com</p>
+                <p>Phone: +123 456 7890</p>
+                <div class="social-icons">
+                    <a href="#"><img src="Facebook-Logosu.png" alt="Facebook"></a>
+                    <a href="#"><img src="Insta-Logo.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 Farm Connect. All rights reserved.</p>
+        </div>
+       </footer>
+    
+    <script>
+        document.querySelectorAll('.faq-question').forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('active');
+                let answer = item.nextElementSibling;
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>

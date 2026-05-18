@@ -1,0 +1,241 @@
+/* General Styles */
+body {
+    font-family: "Abril Fatface", sans-serif; /* Apply globally */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f8f8;
+    background-image: url(BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+/* Header */
+header {
+    background: green;
+    padding: 10px;
+    color: white;
+    position: relative;
+    width: 98.7%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+} 
+
+.logo img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+/* Search Bar */
+.search-bar {
+    margin: 20px 0;
+    align-items: start;
+    border-left: 4%;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 8px;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    align-items: start;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #086208;
+    padding: 5px 20px;
+    width: 97%;
+}
+
+.menu-btn {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    tr
+    ansition: 0.3s ease-in-out;
+}
+/* translator */
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-banner-frame {
+    display: none !important;
+}
+
+#google_translate_element .goog-te-gadget span {
+    display: none !important;
+}
+.login a {
+    background-color: #086208;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.login a:hover {
+    transform: scale(1.1);
+    color: #000000;
+}
+
+.navbar ul li a:hover {
+    transform: scale(1.1);
+    color: #000000;
+}
+
+/* Jobs Section */
+.jobs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    gap: 50px;
+}
+
+.job-type {
+    width: 300px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.job-type h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.job-type img {
+    width: 80px;
+    margin: 10px 0;
+}
+
+.job-type p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.find-jobs, .post-jobs {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.find-jobs {
+    background: green;
+}
+
+.post-jobs {
+    background: #964b00;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-container div {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer h1, h3 {
+    color: white;
+}
+
+.footer-middle ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-middle ul li {
+    margin: 5px 0;
+}
+
+.footer-middle ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-middle ul li a:hover {
+    color: #f39c12;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    padding: 10px;
+    background: #1a252f;
+}

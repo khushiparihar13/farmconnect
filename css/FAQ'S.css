@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f8f8;
+    background-image: url(BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+/* Header */
+header {
+    background: green;
+    padding: 10px;
+    color: white;
+    /* text-align: center; */
+    position: sticky top;
+    width: 98.7%;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.search-bar {
+    margin: 20px 0;
+    align-items: start;
+    /* background-color:rgba(245, 245, 245, 0.507); */
+    border-left: 4%;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 8px;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    align-items: start;
+}
+/* translator */
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-banner-frame {
+    display: none !important;
+}
+
+#google_translate_element .goog-te-gadget span {
+    display: none !important;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #086208;
+    padding: 5px 20px;
+}
+
+.menu-btn {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+
+.login a{
+    background-color: #086208;
+    background-size: 100%;
+    color: white;
+    width: max-content;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.login a:hover {
+    transform: scale(1.1);
+    color: #000000;
+}
+
+
+.navbar ul li a:hover{
+    transform: scale(1.1);
+    color: #000000;
+    
+}
+.faq-container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2%;
+}
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+.faq-question {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq-answer {
+    display: none;
+    padding-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+.faq-question::after {
+    content: '+';
+    font-size: 20px;
+    font-weight: bold;
+}
+.faq-question.active::after {
+    content: '-';
+}
+/* footer */
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-container div {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer h1, h3 {
+    color: white
+}
+
+.footer-middle ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-middle ul li {
+    margin: 5px 0;
+}
+
+.footer-middle ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-middle ul li a:hover {
+    color: #f39c12;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    padding: 10px;
+    background: #1a252f;
+}

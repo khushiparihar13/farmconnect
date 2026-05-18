@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="career.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo2.jpg" alt="">
+            <h1>FARM CONNECT</h1>
+        </div>
+    <nav>
+      
+        <div class="search-bar">
+
+            <input type="text" placeholder=" 🔍 search here (job title, location...)">
+        </div>
+        <div id="google_translate_element"></div>
+        <div class="navbar">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="community.html">Communtiy</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="govscheme.html">Gov-Scheme</a></li>
+            </ul>
+        </div>
+        <div class="login">
+            <!-- <button class="login-btn">Login</button> -->
+            <a href="login_sign.html">Login</a>
+        </div>
+    </nav>
+</header>
+
+    <!-- get jobs and post job section -->
+<section class="intro">
+    <h2> your gateway to farming jobs </h2>
+    <!-- <p>helping job seekers and farmers to find jobs and workers</p> -->
+</section>
+
+<section class="jobs">
+    <div class="job-type">
+        <h2>As a farm worker</h2>
+        <img src="worker.png" alt="Farm Worker">
+        <p>want to grab a job according to your skills, locality, and interest.</p>
+
+        <a href="joblisting.html" class="find-jobs">Find Jobs</a>
+    </div>
+    <div class="job-type" text-align="center">
+        <h2>As a farm owner</h2>
+        <img src="farmerog.png" alt="Farm Owner">
+        <p>want workers to make your farming more easy , seamless and productive</p>
+         
+        <a href="post.html" class="post-jobs">Post Jobs</a>
+    </div>
+</section> <br><br>
+ 
+<!-- footer -->
+<footer>
+    <div class="footer-container">
+        <!-- Left Section: Logo & About -->
+        <div class="footer-left">
+            <h2>Farm Connect</h2>
+            <p>Connecting farmers and workers for a better future.</p>
+        </div>
+
+        <!-- Middle Section: Quick Links -->
+        <div class="footer-middle">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <!-- <li><a href="#">Jobs</a></li> -->
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Right Section: Contact & Social Media -->
+        <div class="footer-right">
+            <h3>Contact Us</h3>
+            <p>Email: info@farmconnect.com</p>
+            <p>Phone: +123 456 7890</p>
+            <div class="social-icons">
+                <a href="#"><img src="Facebook-Logosu.png" alt="Facebook"></a>
+                <a href="#"><img src="Insta-Logo.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+        <p>&copy; 2025 Farm Connect. All rights reserved.</p>
+    </div>
+</footer>
+
+<script>
+    function toggleMenu() {
+        document.getElementById('menuContent').classList.toggle('show');
+    }
+</script>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+</html>

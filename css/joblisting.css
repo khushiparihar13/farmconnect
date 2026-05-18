@@ -1,0 +1,252 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    
+}
+header {
+    background: green;
+    padding: 10px;
+    color: white;
+    /* text-align: center; */
+    position: relative;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+} 
+
+.logo img {
+    width: 60px;
+}
+
+.search-bar {
+    margin: 20px 0;
+    align-items: start;
+    /* background-color:rgba(245, 245, 245, 0.507); */
+    border-left: 4%;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 8px;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    align-items: start;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #086208;
+    padding: 5px 20px;
+}
+
+.menu-btn {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+
+.login a{
+    background-color: #086208;
+    background-size: 100%;
+    color: white;
+    width: max-content;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.login a:hover {
+    transform: scale(1.1);
+    color: #000000;
+}
+
+
+.navbar ul li a:hover{
+    transform: scale(1.1);
+    color: #000000;
+    
+}
+
+/* info section */
+.info{
+    /* background-color: #bcbcbc00; */
+    justify-content: center;
+    text-align: right;
+    margin-left: 30%;
+    margin-right: 0%;
+    border-color: black;
+ 
+    
+}
+.info p{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 18px;
+}
+.info h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.job-listings-section {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.job-listings-section:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.job-listings-section h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #333;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.job-listing {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.job-listing:last-child {
+    border-bottom: none;
+}
+
+.job-listing:hover {
+    background-color: #f1f1f1;
+    border-left: 5px solid #4CAF50;
+    padding-left: 15px;
+}
+
+.job-listing h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+.job-listing p {
+    font-size: 16px;
+    margin: 8px 0;
+    color: #555;
+}
+
+.job-listing p strong {
+    color: #333;
+}
+
+.job-listing p a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.job-listing p a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .job-listings-section {
+        padding: 20px;
+    }
+
+    .job-listing h3 {
+        font-size: 20px;
+    }
+
+    .job-listing p {
+        font-size: 14px;
+    }
+}
+button {
+    background-color: black;
+     color:white;
+     border:none;
+     padding: 0.5rem 1rem;
+     border-radius: 5px;
+     cursor: pointer;
+     margin-top: 1rem;
+     transition: background-color 0.3s, transform 0.3s;
+     width: 50%;
+ }
+ 
+ button:hover {
+     background-color: #000000;
+     transform: translateY(-3px); 
+  }
+ 
+ .back-button {
+     display: block;
+     padding: 7px;
+     margin-top: 10px;
+     text-decoration: none;
+     font-weight: bold;
+     color: rgb(255, 255, 255);
+     border-radius: 5px;
+     /* border: 2px solid black; */
+     /* background: rgb(237, 122, 28); */
+     width: 10%;
+     text-align: center;
+     /* background-color: rgb(255, 255, 255); */
+ }
+ 
+ .Apply
+ {
+         display: block;
+         padding: 8px;
+         margin-top: 10px;
+         text-decoration: none;
+         font-weight: bold;
+         color: white;
+         border-radius: 5px;
+         border: 2px solid black;
+         background: green;
+         width: 10%;
+         text-align: center;
+   }

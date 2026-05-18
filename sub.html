@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sub.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Payment UI</title>
+    <link rel="stylesheet" href="sub.css">
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+    
+
+    <!-- Dark Mode Toggle -->
+    <!-- <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</button> -->
+
+    <div class="payment-container">
+        <h2>Choose Payment Method</h2>
+
+        <!-- Payment Method Buttons -->
+        <div class="payment-options">
+            <button onclick="showPayment('card')">💳 Card Payment</button>
+            <button onclick="showPayment('upi')">📱 UPI Payment</button>
+        </div>
+
+        <!-- Card Payment Form -->
+        <div class="card-payment" id="cardPayment">
+            <input type="text" id="card-holder-name" placeholder="Card Holder Name" required>
+            <div id="card-element"></div>
+            <button id="card-button" class="pay-btn">Pay Now</button>
+        </div>
+
+        <!-- UPI Payment Section -->
+        <div class="upi-payment" id="upiPayment">
+            <h3>Scan & Pay</h3>
+            <img src="QR.jpg" alt="UPI QR Code" class="qr-code">
+            <p>OR</p>
+            <input type="text" class="upi-id" value="yourupi@upi" readonly>
+            <button class="pay-btn">Confirm Payment</button>
+            <br><br>
+            
+        
+        </div>
+    </div>
+    <div class="back-button">
+        <button onclick="window.history.back();" href="home.html">Back</button>
+    </div>
+    
+
+    <script>
+        var stripe = Stripe("YOUR_PUBLISHABLE_KEY");
+        var elements = stripe.elements();
+        var cardElement = elements.create("card");
+        cardElement.mount("#card-element");
+
+        document.getElementById("card-button").addEventListener("click", async (e) => {
+            e.preventDefault();
+            const { paymentMethod, error } = await stripe.createPaymentMethod("card", cardElement);
+            if (!error) {
+                fetch("charge.php", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ paymentMethodId: paymentMethod.id }),
+                })
+                .then(response => response.json())
+                .then(data => alert(data.message));
+            } else {
+                alert(error.message);
+            }
+        });
+
+        function showPayment(method) {
+            document.getElementById("cardPayment").style.display = method === "card" ? "block" : "none";
+            document.getElementById("upiPayment").style.display = method === "upi" ? "block" : "none";
+        }
+
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+
+</body>
+</html>
+</body>
+</html>
